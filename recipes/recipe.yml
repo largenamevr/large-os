@@ -25,8 +25,6 @@ modules:
       packages:
         - micro
         - starship
-        - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
-        - steam
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -44,6 +42,7 @@ modules:
           - org.gnome.Loupe
           - org.vinegarhq.Sober
           - org.prismlauncher.PrismLauncher
+          - com.valvesoftware.Steam
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
