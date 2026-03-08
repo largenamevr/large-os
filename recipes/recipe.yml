@@ -21,10 +21,12 @@ modules:
     repos:
       copr:
         - atim/starship
+        - solopasha/hyprland
     install:
       packages:
         - micro
         - starship
+        - hyprland
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
