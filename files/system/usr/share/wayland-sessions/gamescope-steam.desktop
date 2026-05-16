@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Steam Big Picture (Gamescope)
+Comment=Log straight into Steam Big Picture mode via Gamescope
+Exec=/usr/bin/gamescope-steam-session
+Type=Application
+DesktopNames=Gamescope

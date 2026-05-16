@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+export STEAM_MULTIPLE_XWAYLANDS=1
+export STEAM_GAMESCOPE_VRR_SUPPORTED=1
+exec gamescope -e -f -- steam -gamepadui -steamos3
